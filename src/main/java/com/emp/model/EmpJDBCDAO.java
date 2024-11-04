@@ -7,7 +7,7 @@ public class EmpJDBCDAO implements EmpDAO_interface {
 	String driver = "com.mysql.cj.jdbc.Driver";
 	String url = "jdbc:mysql://localhost:3306/db01?serverTimezone=Asia/Taipei";
 	String userid = "root";
-	String passwd = "123456";
+	String passwd = "123";
 
 	private static final String INSERT_STMT = 
 		"INSERT INTO emp2 (ename,job,hiredate,sal,comm,deptno) VALUES (?, ?, ?, ?, ?, ?)";
